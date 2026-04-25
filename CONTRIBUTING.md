@@ -9,7 +9,7 @@ This is the guide for how we write code, use git, and keep this repo clean. Read
 **Comment everything.** Seriously. You will forget what your code does in two days. Your teammates will have no idea. Future you will be angry at past you.
 
 ### General rule
-Every function, every major block of logic — write a short comment above it explaining what it does.
+Every function, every major block of logic, write a short comment above it explaining what it does.
 
 ```cpp
 // Spins the intake motor forward to pick up a ring
@@ -29,7 +29,7 @@ chassis.driveFor(24, inches);
 wait(200, msec);
 
 // Turn 90 degrees right to align with the goal
-chassis.turnFor(90, degrees);
+chassis.turnToHeading(90, 1000);
 
 // Extend the clamp to grab the mobile goal
 clampPiston.set(true);
@@ -50,7 +50,7 @@ Don't be lazy about this. The more specific the comment, the easier debugging be
 - Never write code directly in the GitHub web editor for anything beyond tiny fixes.
 
 ### The golden rule: if it works, commit it
-Every single time you get something working — a new autonomous routine, a tuned PID value, a fixed bug — **commit it immediately**. Don't wait until "you're done." You're never done, and if you break something later, you want a clean restore point.
+Every single time you get something working, a new autonomous routine, a tuned PID value, a fixed bug, **commit it immediately**. Don't wait until "you're done." You're never done, and if you break something later, you want a clean restore point.
 
 ---
 
@@ -86,7 +86,7 @@ We use branch protection rules on `main`:
 - All changes must come through a Pull Request
 - At least one approval is required before merging
 
-This isn't bureaucracy — it's how you make sure you never accidentally nuke working code the night before a competition.
+This isn't bureaucracy, it's how you make sure you never accidentally nuke working code the night before a competition.
 
 ---
 
@@ -95,7 +95,7 @@ This isn't bureaucracy — it's how you make sure you never accidentally nuke wo
 Even if you're working alone, treat this repo like a team project. Here's why:
 
 - Sloppy branches and vague commits make it impossible to trace back what changed and when
-- You will look at old commits to find code that used to work — you need those commits to make sense
+- You will look at old commits to find code that used to work. You need those commits to make sense
 - Good habits here carry over everywhere, not just VEX
 
 ### Keep branches clean
