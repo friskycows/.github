@@ -9,7 +9,7 @@ We consist of:
  - Jacob
  - Mohnish
 
-This repo holds all our robot code, autonomous routines, and notes for the season. If you're on the team and touching this code, read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+This repo holds all our robot code, autonomous routines, and notes for the season. If you're on the team and touching this code, read [CONTRIBUTING.md](../CONTRIBUTING.md) first.
 
 ## What's in here
 
@@ -18,4 +18,4 @@ This repo holds all our robot code, autonomous routines, and notes for the seaso
 
 ## Quick links
 
-- [Contributing guide](CONTRIBUTING.md)
+- [Contributing guide](../CONTRIBUTING.md)
