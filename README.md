@@ -1,19 +1,15 @@
-# Friskycows — VEX Robotics Team 8780F
+# 8780F Friskycows
 
-Welcome to the official repository of **Friskycows**, VEX Robotics Competition team **8780F**.
+VEX Robotics Competition team **8780F** — 6 members.
 
-## About Us
+This repo holds all our robot code, autonomous routines, and notes for the season. If you're on the team and touching this code, read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
-We are a competitive VEX robotics team made up of **6 members** who design, build, program, and compete with robots in the VEX Robotics Competition.
+## What's in here
 
-## Team Info
+- Robot code (driver control + autonomous routines)
+- Match strategy notes
+- Any other files we need to keep track of as a team
 
-| Field        | Details      |
-|--------------|--------------|
-| Team Number  | 8780F        |
-| Team Name    | Friskycows   |
-| Members      | 6            |
+## Quick links
 
-## Repository
-
-This repository contains our code, documentation, and other resources related to our VEX robot and competition season.
+- [Contributing guide](CONTRIBUTING.md)
