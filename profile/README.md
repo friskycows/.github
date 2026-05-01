@@ -8,8 +8,9 @@ We consist of:
  - EJ
  - Jacob
  - Mohnish
+ - Anshul
 
-This repo holds all our robot code, autonomous routines, and notes for the season. If you're on the team and touching this code, read [CONTRIBUTING.md](../CONTRIBUTING.md) first.
+This repo holds all our robot code and various stuff we decide to share. If you're on the team and touching this code, read [CONTRIBUTING.md](../CONTRIBUTING.md) first.
 
 ## What's in here
 
